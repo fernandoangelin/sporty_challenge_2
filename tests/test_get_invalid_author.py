@@ -5,7 +5,7 @@ from src.setup.base_values import AUTHOR_ENDPOINT
 
 AUTHOR = "My Name Is"
 
-def test_get_poems_by_author():
+def test_get_poems_by_invalid_author():
     response = requests.get(f"{BASE_URL}{AUTHOR_ENDPOINT}/{AUTHOR}")
     assert response.status_code == 200
     error_data = response.json()
