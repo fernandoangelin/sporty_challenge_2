@@ -3,6 +3,12 @@ This repository contains the second QA challenge development
 
 The RestAPI selected was [PoetryDB](https://github.com/thundercomb/poetrydb#readme).
 
+## How to run the tests
+To run all the tests, one should run the following command:
+```shell
+pytest tests/
+```
+
 ## Test Cases Developed
 
 | Test Case | Description | Steps | Expected Results |
